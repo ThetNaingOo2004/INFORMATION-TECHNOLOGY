@@ -1,0 +1,84 @@
+body
+{
+    margin: 0;
+	padding: 0;
+	background-color: #fff;
+	background-image: url("./Image/background.webp");
+	background-repeat: repeat;
+	font-family: "Trebuchet MS", Arial, Helvetice, sans-serif;
+	font-size: 13px;
+	color: rgb(245, 199, 199);
+	background-attachment: fixed;
+	background-size: cover;
+}
+#header
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 70;
+}
+#menu{
+    padding-left: 750px;
+    width: 75%;
+    height: 2em;
+
+}
+#menu ul{
+	margin: 0;
+	padding: 20px 30px 0 0;
+	list-style: none;
+}
+#menu li{
+	display: inline;
+}
+#menu a{
+	display: block;
+	float: left;
+	width: 100px;
+	padding-top: 20px;
+	background-image: url(../Images/button.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1.4em;
+	color: #fff;
+}
+#menu a:hover{
+	color: gray;
+}
+#page{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px 0 0 180px;
+	border-radius: 20px;
+	color: #000;
+	position: absolute;
+	top: 200px;
+    float: center;
+}
+#page h3{
+	color: whitesmoke;
+	font-size: 30px;
+}
+
+#page td{
+	border-top: 1px solid rgb(255, 238, 238);
+	padding: 16px;
+}
+
+strong{
+	font-size: 16px;
+}
+#footer{
+	text-align: center;
+	color: #fff;
+	padding-top: 1180px;
+	padding-bottom: 30px;
+	font-size: 16px;
+}
+
+
+
+
+

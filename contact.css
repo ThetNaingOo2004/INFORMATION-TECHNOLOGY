@@ -1,0 +1,107 @@
+body
+{
+    margin: 0;
+	padding: 0;
+	background-color: #fff;
+	background-image: url("./Image/background.webp");
+	background-repeat: repeat;
+	font-family: "Trebuchet MS", Arial, Helvetice, sans-serif;
+	font-size: 13px;
+	color: #666;
+	background-attachment: fixed;
+    background-size: cover;
+	margin: auto;
+}
+#header
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 70;
+}
+#menu{
+    padding-left: 750px;
+    width: 75%;
+    height: 2em;
+
+}
+#menu ul{
+	margin: 0;
+	padding: 20px 30px 0 0;
+	list-style: none;
+}
+#menu li{
+	display: inline;
+}
+#menu a{
+	display: block;
+	float: left;
+	width: 100px;
+	padding-top: 20px;
+	background-image: url(../Images/button.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1.4em;
+	color: #fff;
+}
+#menu a:hover{
+	color: gray;
+}
+#page
+{
+    border: 2px solid gainsboro;
+    width: 500px;
+	margin: auto;
+	border-radius: 20px;
+	padding-bottom: 50px;
+	color: rgb(247, 244, 244);
+}
+#form
+{
+    padding-top: 100px;
+}
+h1
+{
+	font-size: 30px;
+	text-align: center;
+}
+.user
+{
+	padding-left: 120px;
+	height: 30px;
+	padding-bottom: 20px;
+}
+input
+{
+	width: 70%;
+	height: 30px;
+}
+.bt
+{
+	padding: 40px 0 0 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin: 4px 2px;
+
+}
+button
+{
+	width: 190%;
+	height: 30px;
+	
+}
+#footer{
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	font-size: 16px;
+}
+
+
+
+
+   
